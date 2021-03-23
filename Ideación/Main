@@ -1,0 +1,68 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{cite}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+            
+        \Huge
+        \textbf{Proyecto Final - Ideación}
+            
+        \vspace{0.5cm}
+        \LARGE
+        
+            
+        \vspace{1.5cm}
+            
+        \textbf{José Alejandro Moreno Mesa - 1001369765\\\
+        Miguel Ángel Restrepo Rueda - 1001017183
+        }
+            
+        \vfill
+            
+        \vspace{0.8cm}
+            
+        \Large
+        Despartamento de Ingeniería Electrónica y Telecomunicaciones\\
+        Universidad de Antioquia\\
+        Medellín\\
+        Marzo de 2021
+            
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+\section{Propuestas de juego}\label{intro}
+Tenemos dos ideas de juego:\\\
+1. Pogos UdeA.\\\
+2. Barranquilla Race.
+\subsection{Idea 1 - Pogo UdeA}
+Es un juego estilo Mortal Kombat basado en los combates de dos jugadores (puede ser jugador vs CPU o modo multijugador). El juego contará con al menos 3 distintos mapas que , a medida que el jugador avance en el juego, irán aumentando su dificultad a la vez que se incluyen elementos dinámicos que hagan única la experiencia del jugador. Por lo anterior, el último nivel presentará un enemigo final con una habilidad sobresaliente. \newline
+Habrá un catálogo de personajes en el que el jugador podrá elegir según sus gustos. Se tendrán mínimo  4 personajes disponibles, cada uno con sus propias habilidades especiales, que harán que cada cambio de personaje sea memorable para el usuario que descubrirá estas habilidades en cada nueva partida.\\\
+Las mecánicas del juego serán similares a las de Mortal Kombat de PS1, por lo que el jugador podrá pegar puños y patadas, lanzar bolas de energía y, cuando se le llene la barra de energía, lanzar un poder especial altamente destructivo. El juego contará con una introducción al principio de cada combate, creando diálogos entre los personajes y haciendo la experiencia más cautivante.\\\
+Para el modo individual, el control del personaje será mediante las teclas WASD así: La tecla W será para saltar, la tecla D para moverse hacia la derecha, la tecla A para moverse a la izquierda y por último la tecla S para agacharse. Luego, la tecla de espacio se usará para lanzar bolas de energía, mientras que con la tecla L será para pegar patadas, la tecla K para pegar puños y una vez se le llene la barra, la J para lanzará el poder especial. \\\
+También se implementará una barra de vida en el juego. Esta barra irá cambiando de color a medida de que los jugadores sufran golpes, por lo que el nivel de vida también disminuirá . A su vez, se creará un menú en el que habrá la opción de multijugador, modo historia, salir del juego y configuración.\\\
+Finalmente, cabe resaltar que el juego se diseñará estilo 8-bits y una vez acabada la partida se presentarán los créditos. 
+
+\newpage
+
+\subsection{Idea 2 - Barranquilla Race}
+Como su nombre lo indica, es un juego de carreras tipo Mario Kart de 8 bits en el que el jugador podrá manejar su carro y competir contra la CPU o contra otro jugador. Este juego, contará con al menos 3 mapas totalmente diferentes, cada uno con temáticas únicas y  dificultad variable que irá aumentando entre cada nivel.\\\
+Se contará con varios personajes y carros diferentes con diseño creativo. Cabe resaltar que la diferencia entre personajes solo es estética ya que no afectará la jugabilidad. \\\
+Con respecto a los controles, el personaje se manejará con W para acelerar, D para moverse a la derecha y A para moverse a la izquierda, si se deja de presionar la tecla W el carro no acelerará más. \\\
+El juego contará con una introducción al principio de cada carrera, mostrando un pequeño diálogo entre competidores.Asimismo, se incluirá una barra de desplazamiento indicando cuánto le falta al jugador para llegar a la meta.\\\
+Finalmente, se tendrá un menú en el que habrá la opción de multijugador, modo historia, salir del juego y configuración.
+Una vez acabado el juego se presentarán los créditos. 
+
+
+
+
+\end{document}
