@@ -1,0 +1,91 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\graphicspath{ {images/} }
+\usepackage{cite}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+            
+        \Huge
+        \textbf{Proyecto Final - Alma Máter Combate Marcial}
+            
+        \vspace{0.5cm}
+        \LARGE
+        
+            
+        \vspace{1.5cm}
+            
+        \textbf{José Alejandro Moreno Mesa - 1001369765\\\
+        Miguel Ángel Restrepo Rueda - 1001017183
+        }
+            
+        \vfill
+            
+        \vspace{0.8cm}
+            
+        \Large
+        Despartamento de Ingeniería Electrónica y Telecomunicaciones\\
+        Universidad de Antioquia\\
+        Medellín\\
+        Marzo de 2021
+            
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+\section{Introducción}\label{intro}
+Haciendo uso de todo lo que hemos aprendido a lo largo del curso, especialmente el concepto de programación orientada a objetos y el uso de la interfaz gráfica, se hará un juego de peleas en el que dos personajes se enfrentaran en una batalla hasta que uno de los dos sea el vencedor de la pelea. Este diseño se inspira en los juegos “Mortal Kombat” y “Street Fighters”. 
+
+\section{Contenido del juego}
+A continuación se presentan las ideas propuestas divididas según su sección, los cuales son elementos fundamentales durante el desarrollo el juego.
+
+\subsection{Entorno}
+El entorno estará limitado, puesto que a pesar de que se le da libertad de movimiento al jugador, al ser un juego de peleas no es necesario un escenario muy grande que desmejore la experiencia del jugador, al hacerlo recorrer un escenario muy extenso que baje el dinamismo a los combates. Por otro lado, la cámara principal seguirá al jugador por lo que el entorno se estará “moviendo” a medida que el jugador se mueva. 
+
+\subsection{Ambientación}
+En primera instancia se contará con 3 mapas jugables (la cantidad de mapas está sujeta a cambios), cada uno con una ambientación distinta. De hecho, los mapas cambian a medida que se derrotan enemigos, por lo que cada vez que se cambie el mapa se entra a un nuevo nivel. 
+El primer mapa será ambientado en Tokio, capital japonesa; el segundo mapa será ambientado en Shanghái, China; el tercer y último mapa será ambientado en la Universidad de Antioquia, especialmente con la fuente de fondo. A continuación, se muestra imágenes de ejemplos de los mapas respectivamente:
+\\
+\begin{center}
+\includegraphics[scale=0.9]{tokio}
+\\
+\includegraphics[scale=0.9]{Shanghai}
+\includegraphics[scale=0.88]{fondo udea}
+\end{center}
+\subsection{Personajes}
+En un principio se contará con 4 personajes jugables, cada uno con un aspecto único y personalizado. Éstos, pueden ser escogido para que el jugador juegue con ellos o para que sean manejados por la CPU, dependiendo de las decisiones del jugador. Por otro lado, los dos personajes que van a combatir tienen que ser distintos. 
+
+\subsection{Jugabilidad}
+El jugador puede saltar, agacharse, moverse a la izquierda, a la derecha, pegar puños, patadas y lanzar bolas de energía con su personaje, a la vez que la CPU también puede hacer todo lo anteriormente enunciado. 
+
+\subsection{Controles}
+Con W el jugador podrá saltar, con S agacharse, con A avanzar a la izquierda y con D hacia la derecha. Por otro lado, con la barra espaciadora podrá lanzar bolas de energía, con F lanzar patadas y con Q lanzar puños. 
+
+\subsection{Modalidad}
+Hay dos tipos de modalidades, la modalidad individual en la que el jugador combatirá con la CPU y la modalidad multijugador en la que dos jugadores se batirán a duelo. 
+
+\subsection{Generalidades}
+Como se enunció anteriormente, el juego contará con 3 niveles en los que a medida que se vayan superando la dificultad de la CPU irá aumentando mientras que el mapa cambia. 
+El juego contará con la barra de vida de ambos personajes, un temporizador en la mitad superior de la pantalla que contará el tiempo restante del duelo. A su vez, la partida termina cuando uno de los dos personajes se quede sin vida (con 0 vida en la barra) o se acabe el tiempo. 
+Una imagen de referencia de como será el juego es la siguiente: 
+\begin{center}
+\includegraphics[scale = 0.82]{imagen final}
+\end{center}
+\newpage
+\subsection{Referencias}
+\href{https://wallpaperaccess.com/tokyo-city}{Imagen 1}
+\\
+\href{https://hdwallpaperim.com/painting-city-shanghai/}{Imagen 2}
+\\
+\href{https://360radio.com.co/udea-evaluara-vacuna-coronavirus-en-antioquia/}{Imagen 3}
+\\
+\href{http://es.oldversion.com/games/mortal-kombat-2}{Imagen 4}
+\end{document}
